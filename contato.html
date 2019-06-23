@@ -1,0 +1,78 @@
+<html>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+	<head>
+		<title>Introdução a computação.</title>
+		
+		<link rel="stylesheet" type="text/css" href="layout.css"/>
+		<script type="text/javascript" src = "javascript.js"></script>
+	</head>
+	
+	
+	<body>
+	<div id ="fundotijolos">
+	
+	
+		<!-- Lembrar de colocar sempre o ID corretamente para não se perder no código... -->
+			
+				<div id="cabecalho"> 
+				<img src="imagens/banner.png" class ="classe1">
+				
+				</div>
+				
+				<div id="botoes">
+				
+					<a href="index.html"> <input type= "submit" name = "btn_entrar" value = "Inicio" class ="botao"/></a>
+							<a  href="mouse.html"><input type= "submit" name = "btn_entrar" value = "Mouse" class ="botao"/></a>
+							<a  href="teclado.html"><input type= "submit" name = "btn_entrar" value = "Teclado" class ="botao"/></a>
+							<a  href="hd.html"><input type= "submit" name = "btn_entrar" value = "HD" class ="botao"/></a>
+							<a  href="ram.html"><input type= "submit" name = "btn_entrar" value = "Memória RAM" class ="botao"/></a>
+							<a  href="cpu.html"><input type= "submit" name = "btn_entrar" value = "CPU" class ="botao"/></a>
+							<a  href="fonte.html"><input type= "submit" name = "btn_entrar" value = "Fonte" class ="botao"/></a>
+							<a  href="placadev.html"><input type= "submit" name = "btn_entrar" value = "Placa de Video" class ="botao"/></a>
+							<a  href="placam.html"><input type= "submit" name = "btn_entrar" value = "Placa-Mãe" class ="botao"/></a>
+							<a  href="curiosidades.html"><input type= "submit" name = "btn_entrar" value = "Curiosidades" class ="botao"/></a>
+							<a  href="sobre.html"><input type= "submit" name = "btn_entrar" value = "Sobre" class ="botao"/></a>
+							<a  href="contato.html"><input type= "submit" name = "btn_entrar" value = "Cadastro" class ="botao"/></a> 
+				</div>
+						
+						
+				<div id="conteudo"> 
+				
+					<table class="tamanhotabela">
+					
+						<tr><td><h1><font face="Comic Sans MS">Cadastro</font></h1>
+						<hr>
+						<h3>Preencha o cadastro e teste seus conhecimentos!<h3>
+						<h4>É obrigatório a sua senha possuir pelo menos 5 caracteres!</h4>
+						
+						
+						<form name="formuser" action="questionario.html" method="POST">
+						Nome:<input type="text" name ="nome"><br><br> 
+						E-mail:<input type="text" name="email"><br><br> 
+						Senha:<input type="password" name ="senha""><br><br> 
+						
+						<input type="submit" onclick="return validar()" value="Cadastrar">
+						<!-- ao fazer o código return, ele vai pegar os campos do function feito lá no javascript.js-->
+						</form>
+							
+					
+						
+				</div>
+				
+				<div  id="rodape" class="rodape"> 
+				Site feito pelo aluno Thiago Aquino do curso Sistemas para Internet de 2017 (Instituto Federal de Brasilia)
+				</div>
+				
+			
+		
+		
+		
+		
+		
+		
+		</div>
+	</body>
+	
+	
+	
+</html>

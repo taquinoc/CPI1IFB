@@ -1,0 +1,205 @@
+
+	body {
+	/* O fundo do Body foi colocado especificamente aqui */
+		background-image:url(Imagens/fundo.jpg);
+		}
+
+
+	#fundotijolos{
+	/*Como eu havia dito no HTML, tive que colocar um fundo de Tijolos para se Igualar a página Antiga em HTML que eu fiz */
+	width:800px;
+	margin:auto;
+	background-color: #ffffff;
+	color: #333333;
+	border: 5px solid #000000;
+	padding:10px;
+	background-image:url(Imagens/leaf.jpg);
+	}
+
+	
+	 #conteudo {
+	 /*DIV do conteúdo: espaçamento necessário para dar espaço para o texto*/
+		padding:10px;
+	}
+	
+	
+	#cabecalho {
+	/*DIV do cabeçalho: tive que colocar esse margin em baixo para poder dar um espaçamento em outros divs, foi a única forma que encontrei, pois precisava fazer a página igual a minha anterior,
+	embora tenha muitas limitações consegui fazer exatamente igual*/
+		margin-bottom:10px;
+		
+	}
+	
+	
+
+	img.classe1 {
+			/*
+		Aqui se encontra a propriedade do Banner
+			*/
+		height:227px;
+		border: 1px solid #000000;
+		
+	}
+	
+	img.classe2{
+	/* aqui será encontrado o alinhamento das imagens do conteudo, mais outro erro/dificuldade que não consegui resolver, o alinhamento das imagens pro CENTRO, realmente tive dificuldade nisso
+		mas ainda fui capaz de dar um jeito atráves do padding, acredito que margin também funcionaria*/
+	padding-left:230px;
+	}
+	
+	
+	#botoes {
+	/* Aqui se encontra a DIV dos botões, bem tranquila. OBS: Muito importante fazer o LAYOUT antes de por o conteúdo*/
+		border: 1px solid #000000;
+		background-color: #ffffff;
+		margin-bottom:10px;
+
+	}
+	
+		
+	input.botao { 
+	/*
+	Aqui se encontra as especificações dos botões, bem simples e facil.
+	*/
+		height:45px;
+		font-family:Comic Sans MS;
+		background-image: url(Imagens/fundobotao.jpg);
+		color:#ffffff;
+		padding:3px;
+		margin-left: 1.5;
+		
+	}
+	
+	
+	#conteudo {
+	/*DIV do Conteúdo: borda solida e tamanho 1, fundo no CSS e uma importante observação, todos os comandos de cores foram feitoss em hexadecimal*/
+		border: 1px solid #000000;
+		background-color: #ffffff;
+		background-image:url(Imagens/backclean.png);
+		margin-bottom:10px;
+		color: #000000
+	}
+
+	#conteudo2 {
+	/*DIV do Conteúdo: acerca do questionario*/
+		border: 1px solid #000000;
+		background-color: #ffffff;
+		background-image:url(Imagens/backclean.png);
+		color: #000000
+		width:100;
+		margin-left: 350px;
+		margin-right: 350px;
+		text-align:center;
+
+	}
+
+
+
+	
+	
+	#rodape {
+	/*DIV do Rodapé: parte final do layout, onde pode ser encontrado a ultima informação do SITE*/
+		color: #000000;
+		background-color: #ffffff;
+		border: 1px solid #000000;
+		text-align:center;
+		font-family: arial;
+		font-weight: bold;
+		font-size:15px
+	}
+	
+	
+	p.texto1 {
+	 /*Propriedade dos parágrafos, para melhor personalização*/
+		color:#000000;
+		text-align: justify;
+		font-family: arial;
+		font-weight: bold;
+		text-indent: 5%;
+		}	
+		
+	p.texto2 {
+	/*Propriedade dos parágrafos, para melhor personalização*/
+		color:#000000;
+		text-align: center;
+		font-family: arial;
+		font-weight: bold;
+		margin:auto;
+		font-size:35px;
+		}	
+		
+	p.texto3{
+	/*Propriedade dos parágrafos, para melhor personalização*/
+		color:#FF0000;
+		font-family: arial;
+		font-weight: bold;
+		margin:auto;
+		font-size:35px;
+		}	
+		
+	p.texto4{
+	/*Propriedade dos parágrafos, para melhor personalização*/
+		color:#0000FF;
+		font-family: arial;
+		font-weight: bold;
+		margin:auto;
+		font-size:35px;
+
+		}	
+	
+
+	.azuls{
+	/*Personalização extra usada para mudar a cor de um texto para azul*/
+	color:#0000FF;
+	
+	}
+	
+	.ifb{
+	/* Redimensionamento da IMAGEM IFB na página "Sobre"*/
+	width:780;
+	}
+	
+	
+	.tamanhotabela{
+	
+	height:100;
+	width:770;
+	text-align:center;
+	margin:auto;
+	margin-bottom:10px;
+	}
+	
+	
+	.centro {
+		/*apenas um alinhamento extra*/
+		text-align:center;
+	}
+	
+	.direita{
+		text-align:right;
+	}
+	
+	.esquerda{
+		text-align:left;
+	}
+	
+	.semfundo{
+		/*Usei para tirar o fundo dos botões e dos inputs*/
+		color:#000000;
+		background-image: none;
+		font-weight: bold;
+	}
+	
+	.margintop{
+		margin:10px;
+	}
+	
+	/*FIM DO CÓDIGO*/
+
+	
+	
+	
+
+	
+		
+	
