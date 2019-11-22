@@ -3,5 +3,5 @@
 
 
 O projeto está hospedado no Netlify e pode ser visualizado em:
+[Site feito por mim no inicio do curso](https://thiagoaqn-ifb-tsi-1.netlify.com)
 
-thiagoaqn-ifb-tsi-1.netlify.com
